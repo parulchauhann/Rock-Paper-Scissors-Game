@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <!-- Score board for the player and the computer -->
+    <div class="score">
+        <h1 id="score-player">0</h1>
+        <h1>-</h1>
+        <h1 id="score-computer">0</h1>
+    </div>
+
+    <!-- Gaming-arena -->
+    <section class="game-arena">
+        <div class="play-area" id="player-arena">
+            <h3>You</h3>
+            <div id="movePlayer" class="move"></div>
+            <div id="moveset">
+                <img src="./assets/rock-logo.png" alt="" id="rock">
+                <img src="./assets/paper-logo.png" alt="" id="paper">
+                <img src="./assets/scissors-logo.png" alt="" id="scissors">
+            </div>
+        </div>
+        <div class="vs-image">
+            <img src="assets/vs.png" alt="">
+        </div>
+        <div class="play-area" id="computer-arena">
+            <h3>Computer</h3>
+            <div id = 'moveComputer' class="move"></div>
+        </div>
+    </section>
+
+    <!-- Result section to appear when the result come -->
+    <section class="result">
+        <div id="result-status"></div>
+        <div class="button">Play Again</div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>

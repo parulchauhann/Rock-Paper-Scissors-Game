@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;620&family=Nunito+Sans:opsz@6..12&family=Poppins:wght@600&family=Roboto&family=Sacramento&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("assets/bg.png");
+}
+h1{
+    color: rgb(90, 37, 192);
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 2vw;
+    font-size: 4vw;
+}
+.home-image img{
+    width: 35vw;
+}
+.bottom-section{
+    display: flex;
+    align-items: end;
+    max-width: fit-content;
+    margin-top: 10vw;
+    margin: auto;
+}
+.play-game-button{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+    cursor: pointer;
+}
+.play-game-button img{
+    width: 3vw;
+}
+.play-game-button p{
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 1.5vw;
+}
